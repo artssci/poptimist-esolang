@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="style.css" /> 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kode Mono"/>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <script src="https://www.youtube.com/iframe_api"></script>
+<!--     <script src="https://www.youtube.com/iframe_api"></script> -->
 
     <script src="https://unpkg.com/peggy"></script> 
   </head>
@@ -23,7 +23,7 @@
   
 <rect id="videoDisplay" x="700" y="103" width="625" height="565" rx="10" fill="#D9D9D9"/>
    <foreignobject x="700" y="103" width="625" height="565" >
-     <div id="yt-player" class="iframeContainer">       
+     <div  class="iframeContainer">       
      <iframe allow="autoplay" 
              v-for="x in url" 
              v-bind:src="x"></iframe>
