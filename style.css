@@ -1,0 +1,64 @@
+body { 
+  margin: 0px;
+  padding: 0px;
+  background: black;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  fill: none;  
+  width: 100%;
+  height: 100%;
+  
+}
+
+textarea {
+  width:100%;
+  height: 100%;
+  font-family: 'Kode Mono';
+  font-size: 2em;
+  padding: 1%;
+}
+
+p {
+  width:100%;
+  height: 100%;
+  background: white;
+  overflow: auto;
+  font-family:'Kode Mono';
+  font-size: 1em;
+  
+}
+
+.iframeContainer  {
+  
+  background: white;
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  height:100%;
+  flex-wrap: wrap;
+  overflow: auto;
+
+} 
+
+
+
+iframe {
+  margin: auto;
+  width: 10em;
+  height:10em;
+  
+} 
+
+
+#Eval {
+  cursor:pointer;
+}
