@@ -145,7 +145,15 @@ function evaluate() {
       // Handle loop
       if (cmd.loop) {
         searchParams.set("loop", cmd.loop);
+        searchParams.set('playlist', baseUrl.pathname.split('/').pop());
+
       }
+      
+       // Handle loop
+            // if (cmd.loop) {
+            //     searchParams.set('loop', '1');
+            //     searchParams.set('playlist', baseUrl.pathname.split('/').pop());
+            // }
 
       // Construct the final URL
       const finalUrl = baseUrl.toString();
