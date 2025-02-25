@@ -159,8 +159,7 @@ function evaluate() {
         mute: cmd.mute,
       };
 
-      this.errorConsole = ""
-        //"Processed URL: " + finalUrl;
+      this.errorConsole = "Processed URL: " + finalUrl;
     });
   } catch (error) {
     this.errorConsole = "Error: " + error.message;
