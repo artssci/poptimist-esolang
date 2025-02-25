@@ -100,7 +100,8 @@ const grammar = `
     // Dictionary
     artist = "beyonce"/"queen"
     action = "plays"/"sings"     
-    video = "texas" { return "https://www.youtube-nocookie.com/embed/238Z4YaAr1g?controls=0" } /     
+    video = "texas" { return "https://www.youtube.com/embed/238Z4YaAr1g?controls=0" } /     
+    // { return "https://www.youtube-nocookie.com/embed/238Z4YaAr1g?controls=0" } /     
             "Bohemian Rhapsody" { return "https://www.you-tube.com/embed/fJ9rUzIMcZQ?controls=0" }
 
     whitespace = (" ")*
