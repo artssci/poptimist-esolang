@@ -132,12 +132,13 @@ const grammar = `
 
 
     // Dictionary
-    artist = "beyonce"/"queen"/ "claire" / "taylor"
+    artist = "beyonce"/"queen"/ "claire" / "taylor" / "clairo"
     action = "plays"/"sings"/ "performs" / "dances"     
     video = "texas" { return "https://www.youtube.com/embed/238Z4YaAr1g?controls=0" } /     
             "bohemian" { return "https://www.you-tube.com/embed/fJ9rUzIMcZQ?controls=0" } /
             "bags" {return "https://www.youtube.com/embed/L9HYJbe9Y18?controls=0"} /
-            "blank space" {return "https://www.youtube.com/embed/v=e-ORhEE9VVg?controls=0"} 
+            "blank space" {return "https://www.youtube.com/embed/e-ORhEE9VVg?controls=0"} /
+            "juna" {return "https://www.youtube.com/embed/TsxAVFQkXQ8?controls=0"} 
 
 
 
