@@ -61,6 +61,6 @@ iframe {
 } 
 
 
-#Eval {
+#Eval, #closeButtonContainer {
   cursor:pointer;
 }
