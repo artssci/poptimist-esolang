@@ -38,8 +38,15 @@
 <rect id="evalArea"  x="42" y="26" width="1278" height="55" fill="#FFFC31"/>
 <g id="evalButton" v-on:click="evaluate">
 <rect x="69" y="41" width="93" height="36" rx="10" fill="#337CA0"/>
-<text id="Eval" fill="#D9D9D9" xml:space="preserve" style="white-space: pre" font-family="Kode Mono" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="67.5312" y="72.4">Eval</tspan></text>
+<text id="Eval" fill="#FFFC31" xml:space="preserve" style="white-space: pre" font-family="Kode Mono" font-size="30" font-weight="bold" letter-spacing="0em"><tspan x="80" y="72.4">Eval</tspan></text>
 </g>
+  
+  <g id="instructionsContainer" v-on:click="openInstructions">
+<rect x="205" y="41" width="198" height="36" rx="10" fill="#337CA0"/>
+<text id="Instructions" fill="#FFFC31" xml:space="preserve" style="white-space: pre" font-family="Kode Mono" font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="232.047" y="65.7">Instructions</tspan></text>
+</g>
+  
+  
 <g id="titleContainer">
 <text id="title" fill="black" xml:space="preserve" style="white-space: pre" font-family="Kode Mono" font-size="30" font-weight="bold" letter-spacing="0em"><tspan x="730" y="69.52">POPTIMISM: A POPTIMIST ESOLANG</tspan></text>
 </g>
@@ -49,13 +56,13 @@
 <rect x="332.157" y="135.157" width="702.103" height="498.528" rx="10.4101" stroke="#2A2829" stroke-width="2.31335"/>
 <g id="closeButtonContainer" v-on:click="closeInstructions" fill="#FFFC31">
 <rect x="891.699" y="173.038" width="98.8318" height="44.8318" rx="4.91588" stroke="#252024" stroke-width="1.73502"/>
-<text id="closeButton" fill="black" xml:space="preserve" style="white-space: pre" font-family="Encode Sans" font-size="27.7603" font-weight="300" letter-spacing="0em"><tspan x="896.615" y="206.697">close &#x2612;</tspan></text>
+<text id="closeButton" fill="black" xml:space="preserve" style="white-space: pre" font-family="Kode Mono" font-size="27.7603" font-weight="300" letter-spacing="0em"><tspan x="896.615" y="206.697">close</tspan></text>
 </g>
 <!-- <rect id="titleBackground" x="374.954" y="237.523" width="616.509" height="358.57" fill="black"/> -->
     <rect id="titleBackground" x="374.954" y="237.523" width="616.509" height="358.57" fill="#FFFC31"/>
 
 <foreignObject x="374.954" y="237.523" width="616.509" height="358.5">
-  <body xmlns="http://www.w3.org/1999/xhtml">
+<!--   <body xmlns="http://www.w3.org/1999/xhtml"> -->
     <h1>A Poptimist Esolang</h1>
     <p>Inspired by the ethos of poptimism—the belief that pop music deserves serious critical recognition—this language reimagines programming as an expressive, playful, and inclusive act. 
       <br><br>
@@ -71,7 +78,7 @@
       
       <br><br>
           <b>1. Play a Track 🎶</b>
-<br><br>
+      <br><br>
       Just name your performer and the track. Try the code below which will start playing "Texas" by Beyoncé.
       <br><br>
       
@@ -101,18 +108,13 @@
       <code>beyonce plays texas (loop);</code>
       <br><br>
       
-      <b>3. Mix and Match 🪩</b>
+      <b>3. Combine multiple actions 🪩</b>
       <br><br>
-      Combine multiple actions to create dynamic performances. For example, the code below starts at second 20, ends at 50, mutes the sound, and loops forever!
-
-
+      For example, the code below starts at second 20, ends at 50, mutes the sound, and loops forever!
       <br><br>
-      beyonce plays texas (start 20, end 50, mute, loop);
-
+      <code>beyonce plays texas (start 20, end 50, mute, loop);</code>
     </p>   
-
-   
-  </body>
+<!--   </body> -->
 </foreignObject>
 
 </g>

@@ -40,9 +40,7 @@ p {
 }
 
 h1 {
-  width:100%;
-  height: 100%;
-  background: transparent;
+ 
   font-family:'Kode Mono';  
 }
 
@@ -80,7 +78,3 @@ iframe {
   cursor:pointer;
 }
 
-span {
-  background: #337CA0;
-  color: white;
-}

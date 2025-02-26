@@ -17,6 +17,11 @@ const app = Vue.createApp({
     evaluate,
     closeInstructions(){
       this.areInstructionsVisible = false
+    }, 
+    
+    openInstructions(){
+      this.areInstructionsVisible = true
+
     }
   },
 });
