@@ -24,6 +24,31 @@ const app = Vue.createApp({
 
     }
   },
+  computed: {
+  gridStyle() {
+    return {
+      display: "flex",
+      flexWrap: "wrap",
+      justifyContent: "center",
+      alignItems: "center",
+      width: "100%",
+      height: "100%",
+      gap: "5px"
+    };
+  },
+  iframeStyle() {
+    const count = this.url.length;
+    let size = count > 0 ? 100 / Math.ceil(Math.sqrt(count)) : 100; // Reset to full if 1 video remains
+
+    return {
+      width: `${size}%`,
+      aspectRatio: "16 / 9",
+      maxWidth: "100%",
+      transition: "0.3s ease-in-out"
+    };
+  }
+}
+
 });
 
 app.mount("#app");

@@ -44,7 +44,7 @@ h1 {
   font-family:'Kode Mono';  
 }
 
-.iframeContainer  {
+/* .iframeContainer  {
   
   background: transparent;
   display:flex;
@@ -64,6 +64,23 @@ iframe {
   height:10em;
   
 } 
+ */
+
+.iframeContainer {
+  background: transparent;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  gap: 10px; /* Space between videos */
+  overflow: auto;
+  justify-content: center;
+  align-content: center;
+}
+
+iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9; /* Maintain video aspect ratio */
+}
 
 
 #Eval {
