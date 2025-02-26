@@ -47,7 +47,7 @@
   <g id="instructionsContainer" v-show="areInstructionsVisible">
 <rect x="332.157" y="135.157" width="702.103" height="498.528" rx="10.4101" fill="#337CA0"/>
 <rect x="332.157" y="135.157" width="702.103" height="498.528" rx="10.4101" stroke="#2A2829" stroke-width="2.31335"/>
-<g id="closeButtonContainer" v-on:click="closeInstructions" fill="transparent">
+<g id="closeButtonContainer" v-on:click="closeInstructions" fill="#FFFC31">
 <rect x="891.699" y="173.038" width="98.8318" height="44.8318" rx="4.91588" stroke="#252024" stroke-width="1.73502"/>
 <text id="closeButton" fill="black" xml:space="preserve" style="white-space: pre" font-family="Encode Sans" font-size="27.7603" font-weight="300" letter-spacing="0em"><tspan x="896.615" y="206.697">close &#x2612;</tspan></text>
 </g>
@@ -68,21 +68,28 @@
       
           <br><br>
       <span>  [performer] plays [track] (optional actions); </span>
+      
+      <br><br>
+          <b>1. Play a Track 🎶</b>
+<br><br>
+      Just name your performer and the track. Try the code below which will start playing "Texas" by Beyoncé.
+      <br><br>
+          <code>beyonce plays texas;</code>
+      
+      <br><br>
+       <b>2. Control Playback ⏯️</b>
+      <br><br>
+    Want to start and stop at a specific time? Use start and end. For example, the code below plays from second 20 to 50.
+      <br><br>
+    <code>beyonce plays texas (start 20, end 50);</code>
+      <br><br>
+    <b>Pause the track:</b>
+      <br><br>
+    <code>beyonce plays texas (pause);</code>
     </p>
-    <p></p>
-    <div style="display: flex; flex-direction: column; align-items: center; width: 50%;">
-      <pre><code class="language-markup">
-      <textarea class="myInput" rows="5" cols="50">[performer] plays [track] (optional actions);</textarea>
-      </code></pre>
-    </div>
-    <h3>1. Play a Track 🎶</h3>
-    <p>Just name your performer and the track. Try the code below which will start playing "Texas" by Beyoncé.</p>
-    <p><code>beyonce plays texas;</code></p>
-    <h3>2. Control Playback ⏯️</h3>
-    <p>Want to start and stop at a specific time? Use start and end. For example, the code below plays from second 20 to 50.</p>
-    <p><code>beyonce plays texas (start 20, end 50);</code></p>
-    <p>Pause the track:</p>
-    <p><code>beyonce plays texas (pause);</code></p>
+    
+
+   
   </body>
 </foreignObject>
 
