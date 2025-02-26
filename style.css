@@ -30,7 +30,7 @@ textarea {
 p {
   width:100%;
   height: 100%;
-  background: white;
+  background: red;
   overflow: auto;
   font-family:'Kode Mono';
   font-size: 1em;
