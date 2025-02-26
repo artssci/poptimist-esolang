@@ -25,7 +25,7 @@ textarea {
   font-family: 'Kode Mono';
   font-size: 2em;
   padding: 1%;
-  color: transparent;
+  background: transparent;
 }
 
 p {

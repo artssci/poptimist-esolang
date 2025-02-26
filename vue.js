@@ -10,10 +10,14 @@ const app = Vue.createApp({
       url: [],
       videoControls: {}, // Store video control states
       errorConsole: "",
+      areInstructionsVisible: true
     };
   },
   methods: {
     evaluate,
+    closeInstructions(){
+      this.areInstructionsVisible = false
+    }
   },
 });
 
